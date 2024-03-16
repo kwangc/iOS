@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a95b9ecf-979e-4662-9b9a-d81aa9ffa937" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Clima-iOS13.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/xcode.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clima/Assets.xcassets/background.imageset/dark_background.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clima/Assets.xcassets/background.imageset/light_background-1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clima/Assets.xcassets/background.imageset/light_background.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clima/Assets.xcassets/weatherColor.colorset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clima/Model/WeatherData.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clima/Model/WeatherManager.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Clima/Model/WeatherModel.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clima.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Clima.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clima/Assets.xcassets/background.imageset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/Clima/Assets.xcassets/background.imageset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clima/Assets.xcassets/background.imageset/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clima/Controller/WeatherViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Clima/Controller/WeatherViewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clima/View/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/Clima/View/Base.lproj/Main.storyboard" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_35DADD87-8E74-482E-8A9C-578F88DA9F9D" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ccQin893SssyGvwGsB35NB6Agb" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="manualOrder" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Clima" type="AppleRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Clima" TARGET_NAME="Clima" CONFIG_NAME="Debug" SCHEME_NAME="Clima" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" RUN_TARGET_PROJECT_NAME="Clima" RUN_TARGET_NAME="Clima" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <embedded_app_extension_list />
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a95b9ecf-979e-4662-9b9a-d81aa9ffa937" name="Default Changelist" comment="" />
+      <created>1590825530918</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590825530918</updated>
+      <workItem from="1590825536750" duration="286000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1064" y="148" key="SettingsEditor" timestamp="1590825780736">
+      <screen x="-2560" y="23" width="2560" height="1057" />
+    </state>
+    <state x="-1064" y="148" key="SettingsEditor/0.23.1440.877/-2560.23.2560.1057@-2560.23.2560.1057" timestamp="1590825780736" />
+  </component>
+</project>
