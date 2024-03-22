@@ -7,7 +7,8 @@
 //
 
 import UIKit
-import Firebase
+import FirebaseCore
+import FirebaseAuth
 
 class ChatViewController: UIViewController {
     
@@ -16,17 +17,17 @@ class ChatViewController: UIViewController {
     
 //    let db = Firestore.firestore()
     
-    var messages: [Message] = [Message(sender: "lkhsoft@gmail.com", body: "Hey"), Message(sender: "tony.lee@lineable.net", body: "Hello!"), Message(sender: "lkhsoft@gmail.com", body: "What's up?")]
+//    var messages: [Message] = [Message(sender: "lkhsoft@gmail.com", body: "Hey"), Message(sender: "tony.lee@lineable.net", body: "Hello!"), Message(sender: "lkhsoft@gmail.com", body: "What's up?")]
     
     override func viewDidLoad() {
         super.viewDidLoad()
 //        tableView.dataSource = self
         title = K.appName
         navigationItem.hidesBackButton = true
+//        
+//        tableView.register(UINib(nibName: K.cellNibName, bundle: nil), forCellReuseIdentifier: K.cellIdentifier)
         
-        tableView.register(UINib(nibName: K.cellNibName, bundle: nil), forCellReuseIdentifier: K.cellIdentifier)
-        
-        loadMessages()
+//        loadMessages()
     }
     
     func loadMessages() {
@@ -77,15 +78,15 @@ class ChatViewController: UIViewController {
 //        }
 //    }
 //    
-//    @IBAction func logOutPressed(_ sender: UIBarButtonItem) {
-//        do {
-//            try Auth.auth().signOut()
-//            navigationController?.popToRootViewController(animated: true)
-//        } catch let signOutError as NSError {
-//            print ("Error signing out: %@", signOutError)
-//        }
-//    }
-//}
+    @IBAction func logOutPressed(_ sender: UIBarButtonItem) {
+        do {
+            try Auth.auth().signOut()
+            navigationController?.popToRootViewController(animated: true)
+        } catch let signOutError as NSError {
+            print ("Error signing out: %@", signOutError)
+        }
+    }
+}
 //
 //extension ChatViewController: UITableViewDataSource {
 //    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -112,4 +113,4 @@ class ChatViewController: UIViewController {
 //        
 //        return cell
 //    }
-}
+//}

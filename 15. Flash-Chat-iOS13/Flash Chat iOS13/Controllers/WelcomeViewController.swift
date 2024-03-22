@@ -7,11 +7,11 @@
 //
 
 import UIKit
-//import CLTypingLabel
+import CLTypingLabel
 
 class WelcomeViewController: UIViewController {
     
-//    @IBOutlet weak var titleLabel: CLTypingLabel!
+    @IBOutlet weak var titleLabel: CLTypingLabel!
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -26,6 +26,6 @@ class WelcomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-//        titleLabel.text = K.appName
+        titleLabel.text = K.appName
     }
 }
