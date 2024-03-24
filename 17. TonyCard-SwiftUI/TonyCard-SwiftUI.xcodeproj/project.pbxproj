@@ -64,11 +64,11 @@
 				538A6CB624BF1A1200CA98EB /* AppDelegate.swift */,
 				538A6CB824BF1A1200CA98EB /* SceneDelegate.swift */,
 				538A6CBA24BF1A1200CA98EB /* ContentView.swift */,
+				538A6CCD24BF257400CA98EB /* InfoView.swift */,
 				538A6CBC24BF1A1500CA98EB /* Assets.xcassets */,
 				538A6CC124BF1A1500CA98EB /* LaunchScreen.storyboard */,
 				538A6CC424BF1A1500CA98EB /* Info.plist */,
 				538A6CBE24BF1A1500CA98EB /* Preview Content */,
-				538A6CCD24BF257400CA98EB /* InfoView.swift */,
 			);
 			path = "TonyCard-SwiftUI";
 			sourceTree = "<group>";
