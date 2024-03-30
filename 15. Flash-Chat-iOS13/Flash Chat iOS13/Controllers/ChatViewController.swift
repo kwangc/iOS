@@ -44,8 +44,10 @@ class ChatViewController: UIViewController {
                     if let snapshotDocuments = querySnapshot?.documents {
                         for doc in snapshotDocuments {
                             let data = doc.data()
-                            if let messageSender = data[K.FStore.senderField] as? String, let messageBody = data[K.FStore.bodyField] as? String {
-                                let newMessage = Message(sender: messageSender, body: messageBody)
+                            if let messageSender = data[K.FStore.senderField] as? String,
+                               let messageBody = data[K.FStore.bodyField] as? String,
+                               let messageDate = data[K.FStore.dateField] as? Double {
+                                let newMessage = Message(sender: messageSender, body: messageBody, date: messageDate)
                                 self.messages.append(newMessage)
                                 
                                 DispatchQueue.main.async {
@@ -99,7 +101,18 @@ extension ChatViewController: UITableViewDataSource {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: K.cellIdentifier, for: indexPath) as! MessageCell
         
+        let date = Date(timeIntervalSince1970: message.date)
+        let dateFormatter = DateFormatter()
+        dateFormatter.timeZone = TimeZone(abbreviation: "KST")
+        dateFormatter.locale = NSLocale.current
+        dateFormatter.dateFormat = "yyyy-MM-dd hh:mm:ss a"
+        dateFormatter.amSymbol = "AM"
+        dateFormatter.pmSymbol = "PM"
+        
+        let strDate = dateFormatter.string(from: date)
+        
         cell.label.text = message.body
+        cell.timeLabel.text = strDate
         
         if message.sender == Auth.auth().currentUser?.email {
             cell.leftImageView.isHidden = true
